@@ -11,8 +11,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blue"
         android:text="Cerrar Sesión"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="582dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
 
     <Button
         android:id="@+id/button2"
@@ -20,8 +24,12 @@
         android:layout_height="44dp"
         android:backgroundTint="@color/red"
         android:text="Mesas"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.850"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750" />
 
     <Button
         android:id="@+id/button3"
@@ -29,7 +37,11 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/red"
         android:text="Calificacioness"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
